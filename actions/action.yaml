@@ -1,0 +1,21 @@
+---
+name: actions_all
+pack: create_vm
+runner_type: "python-script"
+description: action start/stop/restart  instance!
+enabled: true
+entry_point: action.py
+parameters:
+     InstanceIds:
+        type: "string"
+        description: "Enter the AWS EC2 Instance ID"
+        required: true 
+        position: 0
+        
+     action:
+        type: "string"
+        description: "Enter the action to perform (START/STOP/RESTART)"
+        required: true 
+        position: 1        
+      
+     

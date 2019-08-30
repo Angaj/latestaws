@@ -1,0 +1,15 @@
+---
+name: actions_all
+pack: create_vm
+runner_type: "python-script"
+description: action to terminate  instance!
+enabled: true
+entry_point: action.py
+parameters:
+     InstanceIds:
+        type: "string"
+        description: "Enter the AWS EC2 Instance ID to terminate"
+        required: true 
+        position: 0
+        
+     
