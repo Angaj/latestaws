@@ -4,7 +4,7 @@ pack: create_vm
 runner_type: "python-script"
 description: action to terminate  instance!
 enabled: true
-entry_point: action.py
+entry_point: terminate.py
 parameters:
      InstanceIds:
         type: "string"
