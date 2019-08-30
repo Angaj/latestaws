@@ -1,5 +1,5 @@
 ---
-name: actions_all
+name: action_all
 pack: create_vm
 runner_type: "python-script"
 description: action start/stop/restart  instance!

@@ -1,5 +1,5 @@
 ---
-name: actions_all
+name: terminate_instance
 pack: create_vm
 runner_type: "python-script"
 description: action to terminate  instance!
