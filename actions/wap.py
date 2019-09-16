@@ -18,3 +18,4 @@ class MyEchoAction(Action):
 			InstanceType=InstanceType,
 			KeyName=KeyName
  )
+		print("VM Created Sucessfully.......")
